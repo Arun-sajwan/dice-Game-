@@ -6,7 +6,6 @@ var image='dice'+b+'.png'
 document.getElementsByTagName('img')[0].src=image
 console.log(image);
 
-// document.getElementById('id1').innerHTML=b
 
 var c=Math.random(6)*6+1;
 var d=Math.floor(c)
@@ -15,7 +14,6 @@ var image2='dice'+d+'.png'
 document.getElementsByTagName('img')[1].src=image2
 console.log(image2);
 
-// document.getElementsByTagName('h1')[2].innerHTML=d
 
 if(d>b)
     {
