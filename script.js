@@ -11,7 +11,7 @@ console.log(image);
 var c=Math.random(6)*6+1;
 var d=Math.floor(c)
 
-var image2='/dice'+d+'.png'
+var image2='dice'+d+'.png'
 document.getElementsByTagName('img')[1].src=image2
 console.log(image2);
 
