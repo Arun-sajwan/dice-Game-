@@ -2,7 +2,7 @@
 var a=Math.random(6)*6+1;
 var b=Math.floor(a)
 
-var image='dice'+b+'.png'
+var image='assets/dice'+b+'.png'
 document.getElementsByTagName('img')[0].src=image
 console.log(image);
 
@@ -10,7 +10,7 @@ console.log(image);
 var c=Math.random(6)*6+1;
 var d=Math.floor(c)
 
-var image2='dice'+d+'.png'
+var image2='assets/dice'+d+'.png'
 document.getElementsByTagName('img')[1].src=image2
 console.log(image2);
 
