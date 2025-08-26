@@ -1,7 +1,5 @@
 .btn{
-    
-    text-shadow: 1px 0 #232931;
-    
+    text-shadow: 1px 0 #232931; 
 }
 h1 {
     margin: 30px;
@@ -18,4 +16,11 @@ footer p {
     font-size: 1.4rem;
     text-shadow: 3px 0 #232931;
     font-family: 'Lobster', cursive;
+}
+.iconone{
+    color: #e68a0a;
+}
+body {
+    background-color: darkslategray  !important;
+    color: rgb(220, 216, 212) !important;
 }
